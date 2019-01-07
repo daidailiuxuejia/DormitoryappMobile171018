@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical" >
+
+    <!-- 首页TOP -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9434E"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+         <ImageView
+             android:id="@+id/imageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dip"
+            android:background="@drawable/icon_back_default"
+            android:gravity="center_vertical" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text="分类"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+        <ImageView
+            android:id="@+id/imageSearch"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/common_title_search_btn_bg"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+    
+    <!-- 滚动视图 -->
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" >
+		    <!-- 广告图 -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        <ImageView
+		            android:layout_width="fill_parent"
+		            android:layout_height="80dp"
+		            android:visibility="gone"
+		            android:background="@drawable/baby_top100" />
+		    </LinearLayout>
+		    <!-- 中间布局 -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		        <net.common.android.ui.custom.MyListView
+		            android:id="@+id/typeListView"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:fadingEdge="none"
+		            android:divider="@drawable/cart_listview_gap" />
+		    </LinearLayout>
+	    </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical" >
+    <!-- android:background="#F5F5F5" -->
+    <!-- 首页TOP搜索 -->
+    <LinearLayout
+        android:id="@+id/llout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9434E"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dip">
+        <TextView
+            android:id="@+id/textHomeSearch"
+              android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="android宿舍管理系统"
+            android:textSize="20dp"
+            android:textColor="@color/white" 
+            android:paddingLeft="0.5dip" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <net.common.android.ui.custom.VerticalScrollView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/myScrollView" >
+	        <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:orientation="vertical">
+		        <!-- View Pager -->
+			    <RelativeLayout
+			        android:id="@+id/fl_main"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" 
+			        android:orientation="vertical">
+			        <android.support.v4.view.ViewPager
+			            android:id="@+id/viewpager"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content" />
+			        <LinearLayout
+			            android:id="@+id/ll_point"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center_horizontal"
+			            android:layout_centerHorizontal="true"
+			            android:layout_marginBottom="5dp"
+			            android:gravity="center"
+			            android:orientation="horizontal"
+			            android:layout_alignBottom="@id/viewpager"
+			            android:src="@drawable/point_gray" />
+			    </RelativeLayout>
+			    <!-- Class部分 -->
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical" 
+			        android:layout_marginTop="5dp"
+			        android:layout_marginBottom="7dp"
+			        android:background="@color/light_gray" >
+			        <LinearLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			               android:id="@+id/layoutstudent"
+			            android:layout_marginBottom="0.5dp" >
+			            
+			            
+			              <LinearLayout
+			                android:id="@+id/linearLayoutCategory0"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:orientation="vertical"
+			                android:gravity="center"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageViewCategory0"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0001_"/>
+			                <TextView
+			                    android:id="@+id/tv_name_0"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="学生查询"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			           <LinearLayout
+			                android:id="@+id/linearLayoutCategory1"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" 
+			                android:gravity="center"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageviewCategory1"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0002_"/>
+			                <TextView
+			                    android:id="@+id/textviewName1"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text=" 宿舍查询"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			            <LinearLayout
+			                android:id="@+id/linearLayoutCategory2"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" 
+			                android:gravity="center"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageviewCategory2"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0003_"/>
+			                <TextView
+			                    android:id="@+id/textviewName2"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="学生信息管理"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			            
+			             
+			        
+			        </LinearLayout>
+			        <LinearLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			                     android:id="@+id/layoutstudent02"
+			            android:layout_marginBottom="0.5dp" >
+			            
+			            
+			              <LinearLayout
+			                android:id="@+id/linearLayoutCategory6"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:orientation="vertical"
+			                android:gravity="center"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageViewCategory6"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0004_"/>
+			                <TextView
+			                    android:id="@+id/tv_name_6"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="宿舍信息管理"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			           <LinearLayout
+			                android:id="@+id/linearLayoutCategory7"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" 
+			                android:gravity="center"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageviewCategory7"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0005_"/>
+			                <TextView
+			                    android:id="@+id/textviewName7"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="宿舍调配"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			            <LinearLayout
+			                android:id="@+id/linearLayoutCategory8"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" 
+			                android:gravity="center"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageviewCategory8"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0006_"/>
+			                <TextView
+			                    android:id="@+id/textviewName8"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="关于软件"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			            
+			             
+			        
+			        </LinearLayout>
+			       
+			        <LinearLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			                android:id="@+id/layoutteacher"
+			            android:orientation="horizontal" 
+			            android:layout_marginBottom="0.5dp" >
+			            
+			            
+			              <LinearLayout
+			                android:id="@+id/linearLayoutCategory3"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:orientation="vertical"
+			                android:gravity="center"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageViewCategory3"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s007_"/>
+			                <TextView
+			                    android:id="@+id/tv_name_3"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="用户管理"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			           <LinearLayout
+			                android:id="@+id/linearLayoutCategory4"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" 
+			                android:gravity="center"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageviewCategory4"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s0002_"/>
+			                <TextView
+			                    android:id="@+id/textviewName4"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="宿舍管理"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			            <LinearLayout
+			                android:id="@+id/linearLayoutCategory5"
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" 
+			                android:gravity="center"
+			                android:clickable="true"
+			                android:background="@drawable/layout_item_bg"
+			                android:layout_marginRight="0.5dp"
+			                android:layout_weight="1.0" >
+			                <ImageView
+			                    android:id="@+id/imageviewCategory5"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="16dp"
+			                    android:layout_marginBottom="9dp"
+			                    android:src="@drawable/s009_"/>
+			                <TextView
+			                    android:id="@+id/textviewName5"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginBottom="16dp"
+			                    android:text="信息统计"
+			                    android:textSize="14dp"
+			                    android:textColor="@color/black" />
+			            </LinearLayout>
+			            
+			             
+			        
+			        </LinearLayout>
+			       
+			            
+			               
+			               
+			
+			        
+			        
+			    </LinearLayout>
+			    <!-- List View 部分 -->
+			    <!-- android:background="#FAFAFA" -->
+	        </LinearLayout>
+	    </net.common.android.ui.custom.VerticalScrollView>
+	    <LinearLayout
+	        android:id="@+id/linearLayoutHomeLogin"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom"
+	        android:orientation="horizontal"
+	        android:gravity="center_vertical"
+	        android:clickable="true"
+	        android:background="@color/transparent_gray" >
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1" >
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	            <!-- android:background=#D9434E -->
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	
+    </FrameLayout>
+</LinearLayout>

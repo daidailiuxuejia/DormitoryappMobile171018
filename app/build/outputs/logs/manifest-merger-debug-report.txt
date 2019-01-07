@@ -1,0 +1,799 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:1-396:12
+	package
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:9:9-37
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:15:2-80
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:15:19-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:17:2-77
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:17:19-75
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:19:6-76
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:19:23-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:29:5-76
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:29:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:31:22-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:32:9-77
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:32:26-74
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:33:9-72
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:33:26-70
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:36:5-76
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:36:17-73
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:38:22-76
+uses-permission#android.permission.ACCESS_GPS
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:39:5-68
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:39:22-66
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:40:5-68
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:40:22-65
+application
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:42:5-394:19
+	android:label
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:46:9-41
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:49:9-50
+	android:icon
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:45:9-39
+	android:allowBackup
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:43:9-35
+	android:theme
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:47:9-45
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:44:9-55
+meta-data#AA_DB_NAME
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:51:9-86
+	android:value
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:51:46-83
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:51:20-45
+meta-data#AA_DB_VERSION
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:52:3-63
+	android:value
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:52:43-60
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:52:14-42
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:54:14-56:64
+	android:value
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:56:13-61
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:55:13-52
+service#com.baidu.location.f
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:58:9-62:19
+	android:process
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:61:13-38
+	android:enabled
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:60:13-35
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:59:13-48
+activity#net.common.android.StartActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:63:9-71:20
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:65:13-45
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:64:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:67:13-70:29
+action#android.intent.action.MAIN
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:68:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:69:27-74
+activity#net.common.android.MainActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:72:9-75:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:74:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:75:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:73:13-59
+activity#baidumap.LocationDemo
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:76:9-79:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:78:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:79:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:77:13-49
+activity#baidumap.LocationActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:80:9-83:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:82:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:83:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:81:13-53
+activity#net.common.android.ui.type.TypeListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:84:9-87:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:86:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:87:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:85:13-75
+activity#net.common.android.ui.type.DormListViewActivity4
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:88:9-91:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:90:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:91:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:89:13-76
+activity#net.common.android.ui.mystore.AddDormActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:92:9-95:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:94:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:95:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:93:13-73
+activity#net.common.android.ui.type.FriendsListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:96:9-99:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:98:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:99:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:97:13-78
+activity#net.common.android.ui.mystore.ChangeDormActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:100:9-103:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:102:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:103:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:101:13-76
+activity#net.common.android.ui.type.DormListViewActivity2
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:104:9-107:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:106:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:107:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:105:13-76
+activity#net.common.android.ui.type.DormListViewActivity3
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:108:9-111:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:110:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:111:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:109:13-76
+activity#net.common.android.ui.type.StudentListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:112:9-115:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:114:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:115:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:113:13-78
+activity#net.common.android.ui.type.StudentListViewActivity2
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:116:9-119:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:118:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:119:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:117:13-79
+activity#net.common.android.ui.type.StudentListViewActivity3
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:120:9-123:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:122:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:123:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:121:13-79
+activity#net.common.android.ui.type.GoodsDetailsActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:124:9-127:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:126:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:127:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:125:13-75
+activity#baidumap.BaidulocationActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:128:9-131:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:130:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:131:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:129:13-58
+activity#weather.BaiduWeatherActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:132:9-135:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:134:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:135:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:133:13-56
+activity#newcourse.CourseActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:136:9-139:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:138:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:139:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:137:13-52
+activity#newcourse.CourseActivity2
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:140:9-143:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:142:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:143:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:141:13-53
+activity#net.common.android.ui.type.MeetRoomListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:144:9-147:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:146:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:147:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:145:13-79
+activity#net.common.android.ui.mystore.TBActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:148:9-151:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:150:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:151:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:149:13-68
+activity#net.common.android.ui.type.MessageViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:152:9-155:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:154:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:155:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:153:13-74
+activity#net.common.android.ui.type.OnlineShop
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:156:9-159:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:158:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:159:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:157:13-65
+activity#net.common.android.ui.type.HistoryListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:160:9-163:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:162:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:163:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:161:13-78
+activity#net.common.android.NewMainActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:164:12-167:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:166:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:167:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:165:13-62
+activity#net.common.android.ui.mystore.CircleApplyActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:168:9-171:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:170:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:171:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:169:13-77
+activity#net.common.android.ui.mystore.PersonSettingActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:172:9-175:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:174:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:175:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:173:13-79
+activity#net.common.android.ui.mystore.PhoneAddActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:176:9-179:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:178:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:179:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:177:13-74
+activity#net.common.android.ui.mystore.MessageAddActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:180:9-183:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:182:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:183:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:181:13-76
+activity#net.common.android.ui.mystore.ChengjiActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:184:10-187:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:186:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:187:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:185:13-73
+activity#net.common.android.ui.mystore.KaoHeListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:188:9-191:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:190:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:191:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:189:13-79
+activity#net.common.android.ui.mystore.VoiceSignListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:192:9-195:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:194:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:195:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:193:13-83
+activity#net.common.android.ui.mystore.ChengjiListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:196:9-199:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:198:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:199:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:197:13-81
+activity#net.common.android.ui.mystore.HuojiangListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:200:9-203:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:202:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:203:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:201:13-82
+activity#net.common.android.ui.mystore.HuojiangActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:204:9-207:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:206:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:207:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:205:13-74
+activity#net.common.android.ui.mystore.SelfShotActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:208:9-211:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:210:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:211:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:209:13-74
+activity#net.common.android.ui.mystore.CommentsActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:212:9-215:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:214:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:215:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:213:13-74
+activity#net.common.android.ui.type.CircleThemeListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:216:10-219:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:218:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:219:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:217:13-82
+activity#net.common.android.ui.mystore.OrderCommentActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:220:10-223:54
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:222:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:223:12-51
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:221:13-78
+activity#net.common.android.ui.home.HomeActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:224:9-227:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:226:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:227:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:225:13-67
+activity#net.common.android.ui.home.NewHomeActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:228:11-231:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:230:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:231:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:229:13-70
+activity#net.common.android.ui.home.WeikeTypeActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:232:9-235:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:234:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:235:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:233:13-72
+activity#net.common.android.ui.type.TypeAcitivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:236:9-239:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:238:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:239:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:237:13-68
+activity#net.common.android.ui.type.TypeNextActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:240:9-243:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:242:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:243:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:241:13-71
+activity#net.common.android.ui.type.PhoneListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:244:9-247:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:246:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:247:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:245:13-76
+activity#net.common.android.ui.type.EmployeeListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:248:9-251:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:250:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:251:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:249:13-79
+activity#net.common.android.ui.type.MessageListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:252:9-255:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:254:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:255:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:253:13-78
+activity#net.common.android.ui.type.DormListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:256:9-259:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:258:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:259:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:257:13-75
+activity#net.common.android.ui.type.GoodsTabActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:260:9-263:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:262:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:263:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:261:13-71
+activity#net.common.android.ui.type.MeetRoomDetailsActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:264:9-267:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:266:12-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:267:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:265:13-78
+activity#net.common.android.ui.type.GoodsDetailsWebAcivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:268:9-271:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:270:12-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:271:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:269:13-77
+activity#net.common.android.ui.mystore.MyStoreActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:272:9-275:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:274:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:275:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:273:13-73
+activity#net.common.android.ui.mystore.EventAddActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:276:9-279:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:278:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:279:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:277:13-74
+activity#net.common.android.ui.mystore.RoomBookActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:280:9-283:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:282:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:283:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:281:13-74
+activity#net.common.android.ui.mystore.RegisteredActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:284:9-287:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:286:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:287:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:285:13-76
+activity#net.common.android.ui.mystore.PhoneRegisteredActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:288:10-291:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:290:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:291:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:289:13-81
+activity#net.common.android.ui.mystore.ICChargedActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:292:9-295:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:294:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:295:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:293:13-75
+activity#net.common.android.ui.mystore.FindPwdActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:296:10-299:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:298:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:299:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:297:13-73
+activity#net.common.android.ui.mystore.DownloadActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:300:14-303:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:302:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:303:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:301:13-74
+activity#net.common.android.ui.mystore.FavoritesListActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:304:9-307:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:306:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:307:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:305:13-79
+activity#net.common.android.ui.mystore.PayMentWebAcivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:308:9-311:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:310:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:311:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:309:13-75
+activity#net.common.android.ui.mystore.LoginActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:312:9-315:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:314:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:315:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:313:13-71
+activity#net.common.android.ui.mystore.AddressListActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:316:10-319:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:318:12-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:319:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:317:13-77
+activity#net.common.android.ui.mystore.FeekBaskActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:320:10-323:55
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:322:12-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:323:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:321:13-74
+activity#net.common.android.ui.mystore.AddressEditActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:324:10-327:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:326:12-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:327:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:325:13-77
+activity#net.common.android.ui.mystore.AddressAddActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:328:10-331:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:330:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:331:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:329:13-76
+activity#net.common.android.ui.mystore.OrderListActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:332:10-335:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:334:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:335:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:333:13-75
+activity#net.common.android.ui.mystore.SettingActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:336:10-339:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:338:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:339:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:337:13-73
+activity#net.common.android.ui.type.BuyStep1Activity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:340:10-343:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:342:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:343:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:341:13-71
+activity#net.common.android.ui.type.BuyAddressListActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:344:10-347:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:346:12-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:347:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:345:13-77
+activity#net.common.android.ui.mystore.HistoryBrowseListActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:348:10-351:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:351:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:350:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:349:13-83
+activity#net.travel.android.ui.search.SearchActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:352:9-355:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:354:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:355:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:353:13-71
+activity#net.common.android.ui.more.AboutActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:356:9-359:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:358:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:359:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:357:13-68
+activity#net.travel.android.ui.cart.CartActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:360:9-363:56
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:362:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:363:12-53
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:361:13-67
+activity#net.common.android.ui.mystore.HelpActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:364:9-367:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:367:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:366:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:365:13-70
+activity#net.common.android.ui.type.CircleThemeDetailViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:369:10-372:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:372:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:371:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:370:13-84
+activity#net.common.android.ui.type.NotificationDetailViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:373:10-376:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:376:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:375:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:374:13-85
+activity#net.common.android.ui.mystore.PubWishActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:378:13-381:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:381:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:380:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:379:13-73
+activity#net.common.android.ui.type.MyOrderListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:382:13-385:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:385:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:384:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:383:13-78
+activity#net.common.android.ui.type.WishDetailViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:386:13-389:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:389:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:388:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:387:13-77
+activity#net.common.android.ui.type.WishReplyListViewActivity
+ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:390:13-393:52
+	android:screenOrientation
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:393:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:392:13-54
+	android:name
+		ADDED from D:\workspace\workspace-android\dormitory_app1\app\src\main\AndroidManifest.xml:391:13-80

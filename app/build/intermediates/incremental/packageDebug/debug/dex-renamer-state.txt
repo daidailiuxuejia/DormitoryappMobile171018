@@ -1,0 +1,4 @@
+#Sat Jan 05 19:48:47 CST 2019
+base.0=D\:\\workspace\\workspace-android\\dormitory_app1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=D\:\\workspace\\workspace-android\\dormitory_app1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

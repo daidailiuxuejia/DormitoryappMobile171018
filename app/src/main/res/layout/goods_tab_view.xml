@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 主界面 -->
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0"
+                android:visibility="gone" />
+            <!-- tab bar buttons -->
+
+            <RadioGroup
+                android:id="@+id/main_tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/category_bg"
+                android:orientation="horizontal"
+                android:paddingTop="0.0dip" >
+                <RadioButton
+                    android:id="@+id/goods_tab_new"
+                    style="@style/GoodsTabButton"
+                    android:checked="true"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/goods_tab_new_bg"
+                    android:text="@string/goods_tab_view_new_text" />
+                <RadioButton
+                    android:id="@+id/goods_tab_price"
+                    style="@style/GoodsTabButton"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/goods_tab_price_bg_1"
+                    android:text="@string/goods_tab_view_price_text" />
+                <RadioButton
+                    android:id="@+id/goods_tab_num"
+                    style="@style/GoodsTabButton"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/goods_tab_num_bg"
+                    android:text="@string/goods_tab_view_num_text" />
+                <RadioButton
+                    android:id="@+id/goods_tab_man"
+                    style="@style/GoodsTabButton"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/goods_tab_man_bg"
+                    android:text="@string/goods_tab_view_man_text" />
+            </RadioGroup>
+            
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

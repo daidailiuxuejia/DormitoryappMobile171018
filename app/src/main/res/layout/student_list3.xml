@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical" >
+            <!-- 首页TOP -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9434E"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+           <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text="宿舍学生信息"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/goodsListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#f5f5f5"
+        android:divider="@drawable/cart_listview_gap"
+        android:drawSelectorOnTop="false"
+        android:listSelector="#00000000"
+        android:fadingEdge="none" />
+    	<!-- #f5f5f5 -->
+    	<!-- android:fadingEdge="none" -->
+    <TextView
+        android:id="@+id/textNoNoDatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/notified"
+        android:text="没有数据"
+        android:visibility="gone"
+        android:textColor="#6D6D6D"
+        android:textSize="20dp" />
+</LinearLayout>
